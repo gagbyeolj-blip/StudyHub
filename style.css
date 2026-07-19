@@ -1,13 +1,20 @@
 body{
     font-size: 16px; /* 부모요소 */
     text-align: center;
-    width: 95%;
+    width: 600;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
+    background-color: #f8fafc;
 }
 
 h3{
     margin-top:30px;
+}
+
+button{
+    background-color: #f8fafc;
+    border: 2px solid #74a8fc;
+    border-radius: 6px;
 }
 
 p{
@@ -15,7 +22,7 @@ p{
 }
 
 .card{
-    border: 3px solid rgb(74, 223, 210);
+    border: 3px solid #74a8fc;
     margin: 10px;
     border-radius: 20px;
 }
