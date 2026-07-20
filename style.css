@@ -7,6 +7,11 @@ body{
     background-color: #ffffff;
 }
 
+body.dark {
+    background-color: #2d2d2d;
+    color:white
+}
+
 #memo{
     text-align:left;
 }
@@ -26,6 +31,11 @@ button{
     border-radius: 6px;
 }
 
+body.dark button {
+  background: #333;
+  color: white;
+}
+
 p{
     margin-bottom:15px;
 }
@@ -34,4 +44,9 @@ p{
     border: 1px solid #74a8fc;
     margin: 10px;
     border-radius: 20px;
+}
+
+.card.dark {
+    background-color: #2d2d2d;
+    color:white
 }
