@@ -23,3 +23,21 @@ button.addEventListener("click",function () {
     }
     updateTheme();
 });
+
+function getDday(targetDate) {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const target = new Date(targetDate);
+    target.setHours(0,0,0,0);
+
+    const diffTime = target - today;
+    const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
+
+    if(diffDays === 0) return 'D-Day';
+    if(diffDays > 0) return `D-${diffDays}`;
+    return `d+${Math.ads(diffDays)}`;
+}
+
+//
+document.getElementById('result').textContent = getDday('2026-8-14');

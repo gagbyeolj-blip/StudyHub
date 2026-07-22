@@ -46,7 +46,7 @@ p{
     border-radius: 20px;
 }
 
-.card.dark {
+body.dark .card{
     background-color: #2d2d2d;
-    color:white
+    color:white;
 }
