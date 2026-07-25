@@ -31,6 +31,10 @@ button{
     border-radius: 6px;
 }
 
+button:hover {
+    background-color: #75a0c9;
+}
+
 body.dark button {
   background: #333;
   color: white;
