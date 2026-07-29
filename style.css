@@ -40,6 +40,10 @@ body.dark button {
   color: white;
 }
 
+body.dark button:hover{
+    background-color: #75a0c9;
+}
+
 p{
     margin-bottom:15px;
 }
