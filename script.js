@@ -31,7 +31,7 @@ function getDday(targetDate) {
     today.setHours(0, 0, 0, 0);
 
     const target = new Date(targetDate);
-    target.setHours(0,0,0,0);
+    target.setHours(0, 0, 0, 0);
 
     const diffTime = target - today;
     const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
