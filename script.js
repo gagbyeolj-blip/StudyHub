@@ -42,7 +42,7 @@ function getDday(targetDate) {
 }
 
 //
-document.getElementById('results').textContent = getDday('2026-08-14'); 
+document.getElementById('results').textContent = getDday('2026-09-29'); 
 
 function alertmenu(menu){
     alert(`오늘의 급식은 ${menu}`)
