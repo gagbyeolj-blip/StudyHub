@@ -38,7 +38,7 @@ function getDday(targetDate) {
 
     if(diffDays === 0) return 'D-Day';
     if(diffDays > 0) return `D-${diffDays}`;
-    return `d+${Math.asd(diffDays)}`;
+    return `D+${Math.abs(diffDays)}`;
 }
 
 //
